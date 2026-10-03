@@ -1,6 +1,6 @@
 {
   "name": "spraay-offramp-adapter",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Non-custodial USDC-on-Base to mobile-money off-ramp adapter: Spraay batch gateway + Paycrest sender API.",
   "license": "MIT",
   "type": "module",
