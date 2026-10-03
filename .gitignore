@@ -1,0 +1,20 @@
+# Secrets — never commit. Only .env.example (placeholders) is tracked.
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
+
+# Dependencies
+node_modules/
+
+# Local ledger / runtime state
+*.sqlite
+*.sqlite-*
+*.db
+data/
+
+# Editor / OS
+.DS_Store
+*.log

@@ -1,0 +1,36 @@
+{
+  "name": "spraay-offramp-adapter",
+  "version": "0.1.0",
+  "description": "Non-custodial USDC-on-Base to mobile-money off-ramp adapter: Spraay batch gateway + Paycrest sender API.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22.5"
+  },
+  "bin": {
+    "spraay-offramp-adapter": "./dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    ".env.example"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "pay": "tsx src/cli.ts"
+  },
+  "dependencies": {
+    "@x402/evm": "2.25.0",
+    "@x402/fetch": "2.25.0",
+    "ethers": "6.17.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.10.2",
+    "tsx": "4.19.2",
+    "typescript": "5.7.2",
+    "vitest": "2.1.8"
+  }
+}
