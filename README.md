@@ -1,6 +1,6 @@
 # spraay-offramp-adapter
 
-[![npm](https://img.shields.io/npm/v/spraay-offramp-adapter)](https://www.npmjs.com/package/spraay-offramp-adapter)
+[![npm](https://img.shields.io/npm/v/spraay-offramp-adapter)](https://www.npmjs.com/package/spraay-offramp-adapter) [![license](https://img.shields.io/npm/l/spraay-offramp-adapter)](LICENSE)
 
 > ## 🧪 Beta — seeking testers
 >
