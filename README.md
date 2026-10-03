@@ -1,5 +1,7 @@
 # spraay-offramp-adapter
 
+[![npm](https://img.shields.io/npm/v/spraay-offramp-adapter)](https://www.npmjs.com/package/spraay-offramp-adapter)
+
 > ## 🧪 Beta — seeking testers
 >
 > The adapter is **built and locally tested** (full test suite green, dry-run
