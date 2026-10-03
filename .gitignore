@@ -18,3 +18,8 @@ data/
 # Editor / OS
 .DS_Store
 *.log
+
+# Internal docs — kept local, never published
+CLAUDE-CODE-BRIEF-*.md
+PHASE0-RECON.md
+AGGREGATOR-FINDING.md
