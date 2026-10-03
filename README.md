@@ -1,5 +1,15 @@
 # spraay-offramp-adapter
 
+> ## 🧪 Beta — seeking testers
+>
+> The adapter is **built and locally tested** (full test suite green, dry-run
+> verified against the live gateway). What's left is the first **mainnet batch**.
+>
+> **We're looking for Paycrest senders** to run that first real off-ramp with
+> their own key and wallet — a few recipients at ~$0.50 each is enough to prove
+> the end-to-end flow. If that's you, **[open an issue](https://github.com/plagtech/spraay-offramp-adapter/issues)**
+> or **DM [@plagtech](https://x.com/plagtech) on X**.
+
 Non-custodial adapter that off-ramps **USDC on Base** to **mobile money** (M-Pesa
 and others) by funding one [Paycrest](https://paycrest.io) sender order per
 recipient with a single batched on-chain transaction routed through the
